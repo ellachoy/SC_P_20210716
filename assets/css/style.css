@@ -74,8 +74,8 @@ footer {
 }
 #second .app img {
   width: 25%;
-  height:20vh;
-  margin-left:6.5%;
+  /* height:20vh; */
+  margin-left:5.5%;
 }
 #second .app img:hover {
   border: 1px solid grey;
@@ -87,12 +87,11 @@ footer {
 }
 #second .use img {
   width: 40%;
+  height:21vh;
   padding-left: 6%;
   margin-bottom: 6vh;
 } 
-#second .use img:nth-child(1){
-    height:21vh;
-}
+
 
 /* footer-contact info */
 footer {
