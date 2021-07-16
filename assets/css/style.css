@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300;400&display=swap");
+
+body {
+  margin: 0;
+  padding: 0 8%;
+  background-color: rgb(6, 7, 7);
+}
+/* general effect */
+h1,
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  color: #5e6264;
+}
+p {
+  font-size: 18px;
+  color: #5e6264;
+}
+a {
+  text-decoration: none;
+  color: #5e6264;
+}
+ul {
+  list-style: none;
+}
+body ul li {
+  display: inline-block;
+}
+/* first page */
+/* navbar */
+#first nav ul {
+  padding: 20px;
+  margin-top: 0;
+  text-align: right;
+}
+#first nav ul li {
+  color: white;
+  font-size: 17px;
+  padding-left: 20px;
+}
+/* about  */
+#first article {
+  width: 55%;
+  padding: 15vh 45% 8vh 0%;
+}
+#first article p{
+    padding-left: 0;
+}
+#first article:nth-of-type(2) h1,
+p {
+  text-align: center;
+  padding-left: 2em;
+}
+#first article:nth-of-type(1) {
+  background: url(../img/designer.jpeg) right / contain no-repeat;
+  height: 10em;
+  margin-bottom: 25vh;
+}
+#first article:nth-of-type(2) {
+  background: url(../img/fault.jpeg) left/ contain no-repeat;
+  height: 30%;
+  padding: 15vh 30% 10vh 55%;
+}
+/*examples */
+ #second .info1,
+.info2,
+footer {
+  padding: 10vh 25vh;s
+}
+#second .info1,
+.info2,
+footer {
+  text-align: center;
+}
+#second .app img {
+  width: 25%;
+  height:25vh;
+  margin-left:6.5%;
+}
+#second .app img:hover {
+  border: 1px solid grey;
+  box-shadow: 5px 3px 2px rgb(212, 189, 189);
+}
+#second .use {
+  padding: 2vh 10vh;
+  margin-bottom: 10vh;
+}
+#second .use img {
+  width: 40%;
+  padding-left: 6%;
+  margin-bottom: 6vh;
+} 
+#second .use img:nth-child(1){
+    height:15.5vh;
+}
+
+/* footer-contact info */
+footer {
+  padding-top: 2vh;
+  color: gray;
+  font-family: "Merriweather", serif;
+}
+footer ul li {
+  display: block;
+  margin-bottom: 2vh;
+}
+
+
