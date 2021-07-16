@@ -74,7 +74,7 @@ footer {
 }
 #second .app img {
   width: 25%;
-  /* height:20vh; */
+  height:20vh;
   margin-left:5.5%;
 }
 #second .app img:hover {
